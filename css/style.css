@@ -1,0 +1,605 @@
+*{ 
+  margin:0; 
+  padding:0; 
+  font-family:'Helvetica Neue', Helvetica, Arial, sans-serif; 
+}
+
+body{
+
+	background-color: #dddddd;
+}
+
+#wrapper{ 
+	width : auto; 
+    margin : 0 auto;
+	background-color: #ECF4EA;
+	/*background-color: #F0FCEF;*/
+	overflow : hidden;
+
+  } 
+
+#header { 
+    width:100%; 
+    height:85px;
+    margin : 0 auto; 
+    z-index: 1001;
+    background: #fff;
+    position:fixed;
+    overflow: visible;
+    box-shadow: 0 3px 3px -3px rgba(0, 0, 0, 0.2);
+    -webkit-box-shadow: 0 3px 3px -3px rgba(0, 0, 0, 0.2);
+
+ } 
+    .logo{
+        width: 960px;
+        margin : 0 auto;
+    }
+    
+    .menu{
+        float: right;
+    }
+
+    .menu ul{
+        display:block;
+        margin-top: 0px;
+        }
+    
+    .menu li{
+        float:left;
+        list-style-type:none;
+        padding:32px 5px 32px 5px;
+        margin:0px;
+        }
+    
+    .menu li a{
+        text-decoration:none;
+        font-family: 'PT Sans', Helvetica, Arial, sans-serif;
+        font-size: 14px;
+        color: #888888;
+          padding:35px 15px 35px 15px;
+        }
+    
+    .menu li:hover{
+        background: #ECF4EA;
+        pointer-events: painted;
+        border-bottom: 3px solid #18BC9C;
+        -webkit-transition: all 500ms ease;
+        -moz-transition: all 500ms ease;
+        -ms-transition: all 500ms ease;
+        -o-transition: all 500ms ease;
+        transition: all 500ms ease;
+        }
+
+#content{  
+    background : #F0FCEF; 
+    margin : 0 auto;
+    width: 960px;
+    overflow: hidden;
+    font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
+    box-shadow: 0 3px 3px -3px rgba(0, 0, 0, 0.2);
+    -webkit-box-shadow: 0 3px 3px -3px rgba(0, 0, 0, 0.2);
+    padding-bottom: 50px;
+ }
+
+     .hal_artikel{
+    margin: 120px auto auto auto;
+    height:auto;
+    background-color: #fff;
+    width: 100%;
+    overflow: hidden; 
+    font-family: 'Open Sans', Arial, sans-serif;
+    padding-bottom: 50px;
+    }
+    
+   
+
+    .hal_artikel h2 {
+    padding-bottom: 30px;
+    padding-left: 20px;
+    color: #666;
+     background : #F0FCEF; 
+    }
+    
+    .artikel{
+    height:auto; 
+    padding:20px;
+    background-color:#fff;
+    float:left;
+    width:600px;
+    margin: 0px auto auto auto;
+        
+    }
+    
+    .artikel input{
+    width: 180px;
+    padding: 10px;
+    background-color: #F0FCEF;
+    border: 0px solid #18BC9C;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    margin-left: 20px;
+    }
+
+    .artikel input[type=submit]{
+    background-color: #18BC9C;
+    width: 50px;
+    color: #fff;
+    }
+
+    .artikel textarea{
+    width: 500px;
+    padding: 10px;
+    background-color: #F0FCEF;
+    border: 0px solid #18BC9C;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    margin-left: 20px;
+    }
+
+    .artikel img{
+    width: 210px;
+    height: 160px;
+    border-radius:3px;
+    -moz-border-radius:3px;
+    -webkit-border-radius:3px;
+    float: left;
+    padding-right: 20px;
+    }
+
+    .artikel h3{
+    text-align: left;
+    color:#666; 
+    padding-bottom: 10px;
+    }
+
+    .artikel h3 a{
+    text-align: left;
+    color:#666; 
+    font-size: 20px;
+    font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
+    text-decoration: none;
+        
+    }
+    .artikel h3 a:hover{
+    text-align: left;
+    color:#18BC9C; 
+    font-size: 20px;
+    font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
+    text-decoration: none;    
+    }
+
+    .artikel h5{
+    color: #999;
+    font-family: 'Open Sans', Arial, sans-serif;
+    font-size: 12px;
+    text-align: left;
+    }
+
+    .artikel p{
+    color: #444;
+    font-family: 'Open Sans', Arial, sans-serif;
+    font-size: 14px;
+    text-align: left;
+    margin: 25px;
+    }
+    
+  
+    a.selengkapnya{
+    background: #18BC9C;
+    padding: 8px;
+    margin-left: 230px;
+    text-decoration: none;
+    color: #fff;
+    font-size: 14px;
+    }
+    a.selengkapnya:hover{
+    background: #444;
+    padding: 8px;
+    margin-left: 230px;
+    text-decoration: none;
+    color: #fff;
+    font-size: 14px;
+    }
+    
+    .artikel ul li{
+    padding-top:5px;
+    padding-bottom:5px;
+    margin-top:5px;
+    list-style:none;
+    text-decoration:none;
+    }
+    
+    .artikel a.lainya{
+    text-decoration:none;
+    font-family: 'Open Sans', Arial, sans-serif;
+    font-size: 14px;
+    color: #666;
+     padding-left: 20px; 
+    }
+    
+    
+    .artikel a.lainya:hover{
+    text-decoration:none;
+    font-family: 'Open Sans', Arial, sans-serif;
+    font-size: 14px;
+    color: #18BC9C;
+    padding-left: 20px;
+    }
+    
+
+
+    .hal_artikel .kanan{
+    height:auto; 
+    padding:10px;
+    background-color:#fff;
+    width:290px;
+    float: right;
+    margin-top: 5px;
+    }
+
+    .hal_artikel .kanan h3{
+    text-align: left;
+    color:#666;
+    margin: 5px 0 0 0 ;
+    border-bottom: 1px dashed #ddd;
+    }
+
+    .hal_artikel .kanan p{
+    color: #888;
+    font-family: 'Open Sans', Arial, sans-serif;
+    font-size: 14px;
+    text-align: left;
+    }
+
+    .hal_artikel .kanan input{
+    width: 180px;
+    padding: 10px;
+    background-color: #F0FCEF;
+    border: 0px solid #18BC9C;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    }
+
+    .hal_artikel .kanan input[type=submit]{
+    background-color: #18BC9C;
+    width: 50px;
+    color: #fff;
+    }
+
+    .hal_artikel .kanan ul li{
+    padding-top:10px;
+    padding-bottom:10px;
+    margin-top:0px;
+    list-style:none;
+    text-decoration:none;
+    border-bottom: 1px dashed #ddd;
+    }
+
+    .hal_artikel .kanan ul li.recent{
+    margin-top:0px;
+    list-style:none;
+    text-decoration:none;
+    border-bottom: 1px dashed #ddd;
+    height: 50px;
+    }
+      
+    .hal_artikel .kanan a{
+    text-decoration:none;
+    font-family: 'Open Sans', Arial, sans-serif;
+    font-size: 14px;
+    color: #666;  
+    }
+    
+    .hal_artikel .kanan a:hover{
+    text-decoration:none;
+    font-family: 'Open Sans', Arial, sans-serif;
+    font-size: 14px;
+    color: #18BC9C;
+    }
+    
+    .hal_artikel .kanan ul li img.recent{
+    width: 50px;
+    height: 50px;
+    padding-right: 10px;
+    border-radius:0px;
+    -moz-border-radius:0px;
+    -webkit-border-radius:0px;
+    margin-top: 5px;
+    float: left;
+    }
+    
+    .halaman{
+    margin : -85px auto;
+    height:auto;
+    background-color: #fff;
+    width: 100%;
+    overflow: hidden; 
+    font-family: 'Open Sans', Arial, sans-serif;
+    padding-top: 15px;
+    padding-bottom:100px;
+    }
+    
+    .halaman input{
+    width: 300px;
+    padding: 10px;
+    background-color: #F0FCEF;
+    border: 0px solid #18BC9C;
+    }
+    .halaman input[type=submit]{
+    background-color: #18BC9C;
+    width: 70px;
+    color: #fff;
+    }
+    
+    .halaman h3{
+    color: #666666;
+    text-align: center;
+    }
+    .halaman p{
+    color: #888888;
+    text-align: center;
+    padding-bottom: 25px;
+    font-size: 14px;
+    }
+    
+    .kiri{
+    height:auto; 
+    padding:10px;
+    background-color:#fff;
+    float:left;
+    width:320px;
+    margin-top: 30px;
+    }
+    .kiri h3{
+    text-align: center;
+    color:#262626; 
+    margin: 5px 0 0 0 ;
+    }
+    .kiri p{
+    color: #888;
+    font-family: 'Open Sans', Arial, sans-serif;
+    font-size: 14px;
+    text-align: center;
+    }
+    .kiri img{
+    width: 200px;
+    height: 200px;
+    border-radius:110px;
+    -moz-border-radius:110px;
+    -webkit-border-radius:110px;
+    border: 4px solid #18BC9C;
+    }
+
+    .kanan{
+    height:auto; 
+    padding:10px;
+    background-color:#fff;
+    float:right;
+    width:320px; 
+    margin-top: 30px;
+    }
+    .kanan h3{
+    text-align: center;
+    color:#262626;
+    margin: 5px 0 0 0 ;
+    }
+    .kanan p{
+    color: #888;
+    font-family: 'Open Sans', Arial, sans-serif;
+    font-size: 14px;
+    text-align: center;
+    }
+    .kanan img.hal{
+    width: 200px;
+    height: 200px;
+    border-radius:110px;
+    -moz-border-radius:110px;
+    -webkit-border-radius:110px;
+    border: 4px solid #18BC9C;
+    }
+ 
+
+    .tengah{
+    height:auto; 
+    padding:10px;
+    background-color:#fff;
+    margin:30px 290px 0 290px;
+    width: 320px;
+    }
+    .tengah h3{
+    text-align: center;
+    color:#262626; 
+    margin: 5px 0 0 0 ;
+    }
+    .tengah p{
+    color: #888;
+    font-family: 'Open Sans', Arial, sans-serif;
+    font-size: 14px;
+    text-align: center;
+    }
+    .tengah img.hal{
+    width: 200px;
+    height: 200px;
+    border-radius:110px;
+    -moz-border-radius:110px;
+    -webkit-border-radius:110px;
+    border: 4px solid #18BC9C;
+    }
+
+    .koment{
+    background: #F0FCEF;
+    padding: 10px;
+    font-family: 'Open Sans', Arial, sans-serif;
+    color: #888;
+    margin-left: 20px;
+    }
+    
+    h3,h5.detail{
+    margin-left: 20px;
+    }
+    
+    img.detailgbr{
+    width: 570px;
+    height: 400px; 
+    margin-top: 10px;
+    margin-left: 20px;
+    padding-bottom: 10px;
+    }
+    
+   .hal_artikel .artikel p a img.galeri{
+    width: 160px;
+    height: 140px;
+    border-radius:3px;
+    -moz-border-radius:3px;
+    -webkit-border-radius:3px;
+    float: left;
+    padding: 10px;
+    }
+   
+    
+
+#footer{ 
+width : 100%; 
+height: auto;
+background: #333;
+}
+ 
+#footer .bawah{
+width : 100%; 
+height: auto;
+background: #262626;
+} 
+    .bawah p {
+        background: #262626;
+        color: #fff;
+        font-size: 14px;
+        text-align: center;
+        padding: 10px;
+        font-family: 'PT Sans', Helvetica, Arial, sans-serif;
+    }
+
+  
+
+    .bawah a {
+        text-decoration: none;
+        color: #fff;
+        font-size: 14px;
+        text-align: center;
+        padding: 15px;
+        font-family: 'PT Sans', Helvetica, Arial, sans-serif;
+    }
+
+    .barisbawah{
+        margin: 0px auto auto auto;
+        height:300px;
+        background-color: #333;
+        width: 960px;
+        box-shadow: 0 3px 3px -3px rgba(0, 0, 0, 0.2);
+        -webkit-box-shadow: 0 3px 3px -3px rgba(0, 0, 0, 0.2);
+        overflow: hidden; 
+        font-family: 'Open Sans', Arial, sans-serif;
+    }
+    .barisbawah .kiri{
+        height:auto; 
+        background-color:#333;
+        float:left;
+        width:320px; 
+    }
+    .barisbawah .kiri h3{
+        text-align: left;
+        color:#fff; 
+        font-size: 18px;
+    }
+    .barisbawah .kiri p{
+        color: #888;
+        background-color:#333;
+        font-family: 'Open Sans', Arial, sans-serif;
+        font-size: 14px;
+        text-align: left;
+        margin-left: -1px;
+    }
+
+    .barisbawah .kanan{
+        height:400px; 
+        background-color:#333;
+        float:right;
+        width:320px; 
+    }
+    .barisbawah .kanan h3{
+        text-align: left;
+        color:#fff;
+        font-size: 18px;
+        margin: 5px 0 0 0 ;
+    }
+    .barisbawah .kanan p{
+        color: #888;
+        background-color:#333;
+        font-family: 'Open Sans', Arial, sans-serif;
+        font-size: 14px;
+        text-align: left;
+        margin-left: -1px;
+    }
+
+    .barisbawah .tengah{
+        height:600px;
+        width: 320px;
+        padding:10px;
+        background-color:#333;
+        margin:30px 290px 0 290px;
+    }
+    .barisbawah .tengah h3{
+        text-align: left;
+        color:#fff;
+        font-size: 18px;
+        margin: 5px 0 0 0 ;
+    }
+    .barisbawah .tengah p{
+        color: #888;
+        background-color:#333;
+        font-family: 'Open Sans', Arial, sans-serif;
+        font-size: 14px;
+        text-align: left;
+    }
+
+      .barisbawah .tengah ul li img.recent{
+    width: 50px;
+    height: 50px;
+    padding-right: 10px;
+    border-radius:0px;
+    -moz-border-radius:0px;
+    -webkit-border-radius:0px;
+    margin-top: 5px;
+    float: left;
+    }
+    
+    .barisbawah .tengah ul li{
+    padding-top:10px;
+    padding-bottom:20px;
+    margin-top:0px;
+    list-style:none;
+    text-decoration:none;
+    }
+
+    .barisbawah .ktengah ul li.recent{
+    margin-top:0px;
+    list-style:none;
+    text-decoration:none;
+    border-bottom: 1px dashed #ddd;
+    height: 80px;
+    }
+    
+     .barisbawah .tengah a{
+    text-decoration:none;
+    font-family: 'Open Sans', Arial, sans-serif;
+    font-size: 14px;
+    color: #666;  
+    }
+    
+    .barisbawah .tengah a:hover{
+    text-decoration:none;
+    font-family: 'Open Sans', Arial, sans-serif;
+    font-size: 14px;
+    color: #18BC9C;
+    }
+    
+   

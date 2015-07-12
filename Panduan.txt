@@ -1,0 +1,6 @@
+Buat Database dengan nama db_mediagresik
+kemudian import database yang ada di dalam folder ini
+
+
+
+by.syaifulnazar
